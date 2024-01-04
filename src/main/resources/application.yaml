@@ -27,13 +27,13 @@ spring:
   application:
     name: API-GATEWAY
 server:
-  port: 9080
+  port: 8280
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl:
-      defaultZone: http://192.168.2.199:8761/eureka
+      defaultZone: http://serviceDiscovery:8761/eureka
 
 #eureka.client.fetch-registry=true
 #eureka.client.register-with-eureka=true

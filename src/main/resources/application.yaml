@@ -27,7 +27,7 @@ spring:
   application:
     name: API-GATEWAY
 server:
-  port: 8180
+  port: 9080
 eureka:
   client:
     fetch-registry: true
